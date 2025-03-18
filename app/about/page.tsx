@@ -23,14 +23,14 @@ export default function About() {
           <div>
             <h2 className="text-3xl font-bold mb-6">LifeDockサービスについて</h2>
             <p className="text-lg mb-4">
-              当クリニックは、LifeDockサービスの提携医療機関として、 最新の技術を用いた採血検査を行っています。
+              「広尾オレンジクリニック」はこどもが心身ともに健康に成長できる環境作りを目的とした予防医学プラットフォームサービス「LifeDock」の各サービスを提供するクリニックです。
             </p>
             <p className="text-lg mb-4">
-              LifeDockサービスは、最新のAI技術と医療の知見を組み合わせ、 より正確で詳細な健康データを提供します。
-              これにより、早期の健康リスク発見や、個人に合わせた健康管理が可能になります。
+              採血室とカウンセリングルームを備えており、血液検査や栄養指導、心理検査指導を行なっています。
+              予約制のため、基本的に混み合うことも、長時間待つこともありません。小さなお子さんやお母さんも安心して来院できる設備が整った、温かい雰囲気のクリニックです。
             </p>
             <p className="text-lg mb-6">
-              当クリニックでは、LifeDockサービスを通じて、 皆様の健康維持・増進をサポートいたします。
+              こどもの将来の健康ための予防医学を提供しています。ぜひLifeDockのホームページからサービス内容、予約方法をご確認ください。
             </p>
             <Button size="lg" className="font-semibold">
               <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
@@ -41,7 +41,7 @@ export default function About() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/IMG_2084.JPG?height=400&width=600"
               alt="LifeDockサービスイメージ"
               fill
               className="object-cover"
@@ -51,7 +51,7 @@ export default function About() {
       </section>
 
       {/* Clinic Features */}
-      <section className="bg-muted py-12">
+      {/* <section className="bg-muted py-12">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">クリニックの特徴</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -121,10 +121,10 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Clinic Facilities */}
-      <section className="container mx-auto py-12 px-4 md:px-6">
+      {/* <section className="container mx-auto py-12 px-4 md:px-6">
         <h2 className="text-3xl font-bold text-center mb-12">施設紹介</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
@@ -145,7 +145,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* LifeDock Banner */}
       <section className="bg-primary text-primary-foreground py-12">

@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/placeholder.svg?height=40&width=200"
+                src="/logo.png?height=40&width=200"
                 alt="LifeDockクリニック"
                 width={200}
                 height={40}
@@ -29,18 +29,18 @@ export default function Footer() {
               <div className="flex items-start">
                 <Clock className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-medium">平日</p>
-                  <p className="text-sm text-muted-foreground">9:00 - 13:00 / 15:00 - 18:00</p>
+                  <p className="font-medium">月 - 日</p>
+                  <p className="text-sm text-muted-foreground">10:00 - 20:00</p>
                 </div>
               </div>
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <Clock className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
                 <div>
                   <p className="font-medium">土曜</p>
                   <p className="text-sm text-muted-foreground">9:00 - 13:00</p>
                 </div>
-              </div>
-              <p className="text-sm text-muted-foreground">※日曜・祝日休診</p>
+              </div> */}
+              <p className="text-sm text-muted-foreground">※休診日: 水曜日</p>
             </div>
           </div>
 
@@ -49,15 +49,15 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
-                <p className="text-sm">〒100-0001 東京都千代田区1-1-1</p>
+                <p className="text-sm">150-0012 東京都渋谷区広尾５丁目3-13 バルビゾン86 ４階</p>
               </div>
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
                 <p className="text-sm">03-1234-5678</p>
-              </div>
+              </div> */}
               <div className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
-                <p className="text-sm">info@lifedock-clinic.example.com</p>
+                <p className="text-sm">k.o.oushuku@gmail.com</p>
               </div>
             </div>
           </div>

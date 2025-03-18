@@ -16,7 +16,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
             <Image
-              src="/placeholder.svg?height=40&width=200"
+              src="/logo.png?height=40&width=200"
               alt="LifeDockクリニック"
               width={200}
               height={40}
