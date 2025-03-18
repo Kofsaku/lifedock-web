@@ -14,38 +14,49 @@ export default function Recruitment() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">スタッフ募集</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            LifeDockクリニックでは、共に医療の未来を創る仲間を募集しています。
-            最新の医療技術を活用し、患者様の健康をサポートする仕事です。
+            「広尾オレンジクリニック」および「LifeDock」では、日本の未来であるこども達の健康な将来をサポートする仲間を募集しています。
           </p>
         </div>
       </section>
 
       {/* Recruitment Message */}
       <section className="container mx-auto py-12 px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative h-[400px] rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=400&width=600" alt="クリニックスタッフ" fill className="object-cover" />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold mb-6">一緒に働きませんか？</h2>
-            <p className="text-lg mb-4">
-              LifeDockクリニックは、最新の医療技術を活用し、
-              患者様一人ひとりに合わせた最適な医療サービスを提供することを目指しています。
-            </p>
-            <p className="text-lg mb-4">
-              特にLifeDockサービスを導入し、より正確で迅速な血液検査を実現しました。
-              この革新的なサービスを通じて、患者様の健康をサポートする仕事に興味はありませんか？
-            </p>
-            <p className="text-lg mb-6">
-              医療の未来を共に創る仲間として、あなたの力を活かしてみませんか？
-              私たちと一緒に、患者様の笑顔のために働きましょう。
-            </p>
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-white p-8 rounded-lg shadow-sm space-y-6">
+            <div>
+              <h2 className="text-2xl font-bold mb-4">募集職種</h2>
+              <ul className="list-disc ml-6 space-y-2 text-lg">
+                <li>小児の採血経験のある看護師</li>
+                <li>検査技師</li>
+                <li>管理栄養士</li>
+                <li>WISC施行可能な臨床心理士</li>
+              </ul>
+            </div>
+
+            <div className="text-lg">
+              <p className="mb-4">
+                私たちは日本の未来であるこども達の健康な将来をサポートすることに取り組んでいます。
+                こども達の笑顔、健康を守り、明るい社会を作る。ぜひ皆様のお力をお貸し下さい。
+                お待ちしております！
+              </p>
+            </div>
+
+            <div className="bg-muted p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">お問い合わせ</h3>
+              <p className="text-lg">詳細は下記メールアドレスまでお問い合わせください。</p>
+              <p className="text-lg mt-2">
+                広尾オレンジクリニック　採用担当<br />
+                <a href="mailto:k.o.oushuku@gmail.com" className="text-primary hover:underline">
+                  k.o.oushuku@gmail.com
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Job Positions */}
-      <section className="bg-muted py-12">
+      {/* <section className="bg-muted py-12">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">募集職種</h2>
 
@@ -183,10 +194,10 @@ export default function Recruitment() {
             </TabsContent>
           </Tabs>
         </div>
-      </section>
+      </section> */}
 
       {/* Benefits */}
-      <section className="container mx-auto py-12 px-4 md:px-6">
+      {/* <section className="container mx-auto py-12 px-4 md:px-6">
         <h2 className="text-3xl font-bold text-center mb-12">働く魅力</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <Card>
@@ -276,10 +287,10 @@ export default function Recruitment() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Form */}
-      <section id="contact" className="bg-muted py-12">
+      {/* <section id="contact" className="bg-muted py-12">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">お問い合わせ</h2>
           <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm">
@@ -331,7 +342,7 @@ export default function Recruitment() {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* LifeDock Banner */}
       <section className="bg-primary text-primary-foreground py-12">
