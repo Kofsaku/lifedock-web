@@ -26,13 +26,12 @@ export default function Recruitment() {
             <div>
               <h2 className="text-2xl font-bold mb-4">募集職種</h2>
               <ul className="list-disc ml-6 space-y-2 text-lg">
-                <li>小児の採血経験のある看護師</li>
+                <li>看護師(小児採血可能な方)</li>
                 <li>検査技師</li>
                 <li>管理栄養士</li>
-                <li>WISC施行可能な臨床心理士</li>
+                <li>臨床心理士</li>
               </ul>
             </div>
-
             <div className="text-lg">
               <p className="mb-4">
                 私たちは日本の未来であるこども達の健康な将来をサポートすることに取り組んでいます。
