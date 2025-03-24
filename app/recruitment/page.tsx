@@ -10,7 +10,7 @@ export default function Recruitment() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-muted py-12 md:py-24">
+      <section className="bg-orange-50 py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">スタッフ募集</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -41,12 +41,12 @@ export default function Recruitment() {
               </p>
             </div>
 
-            <div className="bg-muted p-6 rounded-lg">
+            <div className="bg-orange-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-4">お問い合わせ</h3>
               <p className="text-lg">詳細は下記メールアドレスまでお問い合わせください。</p>
               <p className="text-lg mt-2">
                 広尾オレンジクリニック　採用担当<br />
-                <a href="mailto:k.o.oushuku@gmail.com" className="text-primary hover:underline">
+                <a href="mailto:k.o.oushuku@gmail.com" className="text-orange-500 hover:text-orange-600 hover:underline">
                   k.o.oushuku@gmail.com
                 </a>
               </p>
@@ -345,13 +345,13 @@ export default function Recruitment() {
       </section> */}
 
       {/* LifeDock Banner */}
-      <section className="bg-primary text-primary-foreground py-12">
+      <section className="bg-orange-500 text-white py-12">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">LifeDockサービスで健康管理を始めましょう</h2>
           <p className="text-xl mb-6 max-w-2xl mx-auto">
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
-          <Button size="lg" variant="secondary" className="font-semibold">
+          <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
             <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />

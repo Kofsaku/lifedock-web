@@ -8,8 +8,8 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LifeDockクリニック",
-  description: "健康をサポートするLifeDockクリニック。最新の医療技術で皆様の健康をサポートします。",
+  title: "広尾オレンジクリニック",
+  description: "お子様の将来の健康をサポートします。",
     generator: 'v0.dev'
 }
 

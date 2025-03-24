@@ -11,7 +11,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4">
               <Image
                 src="/logo.png?height=40&width=200"
-                alt="LifeDockクリニック"
+                alt="広尾オレンジクリニック"
                 width={200}
                 height={40}
                 className="h-10 w-auto"
@@ -96,7 +96,7 @@ export default function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} LifeDockクリニック. All rights reserved.
+            &copy; {new Date().getFullYear()} 広尾オレンジクリニック. All rights reserved.
           </p>
         </div>
       </div>

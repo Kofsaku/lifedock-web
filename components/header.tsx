@@ -17,7 +17,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.png?height=40&width=200"
-              alt="LifeDockクリニック"
+              alt="広尾オレンジクリニック"
               width={200}
               height={40}
               className="h-10 w-auto"
@@ -38,7 +38,10 @@ export default function Header() {
             <Link href="/recruitment" className="text-sm font-medium hover:text-primary">
               スタッフ募集
             </Link>
-            <Button size="sm" className="ml-4">
+            <Button 
+              size="sm" 
+              className="ml-4 bg-orange-500 hover:bg-orange-600 text-white"
+            >
               <Link href="https://lifedock.jp" target="_blank">
                 LifeDockサービス
               </Link>

@@ -71,7 +71,7 @@ export default function News() {
       <section className="bg-muted py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">お知らせ</h1>
-          <p className="text-xl max-w-3xl mx-auto">LifeDockクリニックからの最新情報やお知らせをご覧いただけます。</p>
+          <p className="text-xl max-w-3xl mx-auto">広尾オレンジクリニックからの最新情報やお知らせをご覧いただけます。</p>
         </div>
       </section>
 
@@ -133,13 +133,13 @@ export default function News() {
       </section>
 
       {/* LifeDock Banner */}
-      <section className="bg-primary text-primary-foreground py-12">
+      <section className="bg-orange-500 text-white py-12">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">LifeDockサービスで健康管理を始めましょう</h2>
           <p className="text-xl mb-6 max-w-2xl mx-auto">
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
-          <Button size="lg" variant="secondary" className="font-semibold">
+          <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
             <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />

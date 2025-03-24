@@ -13,7 +13,7 @@ export default function Home() {
       <section className="w-full relative">
         <div className="relative w-full h-[500px] overflow-hidden">
           <Image
-            src="/image1.png?height=500&width=1200"
+            src="/top2.png?height=800&width=1200"
             alt="クリニックの外観"
             fill
             className="object-cover"
@@ -22,12 +22,10 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
             <div className="text-center text-white p-6 max-w-3xl">
               <h1 className="text-4xl font-bold mb-4">
-                健康をサポートする
-                <br />
-                LifeDockクリニック
+                広尾オレンジクリニック
               </h1>
-              <p className="text-xl mb-6">最新の医療技術で皆様の健康をサポートします</p>
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
+              <p className="text-xl mb-6">お子様の将来の健康をサポートします。</p>
+              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                 <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
                   LifeDockサービスを見る
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -147,7 +145,6 @@ export default function Home() {
       {/* Photo Gallery */}
       <section className="bg-muted py-12">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-bold text-center mb-8">クリニック写真</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
@@ -182,7 +179,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/3">
             <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/image7.png?height=300&width=300" alt="院長写真" fill className="object-cover" />
+              <Image src="/kawadesan.jpg?height=300&width=300" alt="院長写真" fill className="object-cover" />
             </div>
           </div>
           <div className="md:w-2/3">
@@ -209,13 +206,13 @@ export default function Home() {
       </section>
 
       {/* LifeDock Banner */}
-      <section className="bg-primary text-primary-foreground py-12">
+      <section className="bg-orange-500 text-white py-12">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">LifeDockサービスで健康管理を始めましょう</h2>
           <p className="text-xl mb-6 max-w-2xl mx-auto">
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
-          <Button size="lg" variant="secondary" className="font-semibold">
+          <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
             <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />

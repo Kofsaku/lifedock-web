@@ -13,7 +13,7 @@ export default function Access() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">アクセス</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            LifeDockクリニックへのアクセス情報をご案内します。 便利な立地で、皆様のご来院をお待ちしております。
+          広尾オレンジクリニックへのアクセス情報をご案内します。 便利な立地で、皆様のご来院をお待ちしております。
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function Access() {
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center">
                   <Phone className="mr-2 h-5 w-5" />
@@ -45,9 +45,8 @@ export default function Access() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-lg">メールアドレス: k.o.oushuku@gmail.com</p>
-                {/* <p className="text-sm text-muted-foreground">※お電話でのお問い合わせは診療時間内にお願いいたします。</p> */}
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card>
               <CardHeader>
@@ -216,13 +215,13 @@ export default function Access() {
         </div>
       </section> */}
         {/* LifeDock Banner */}
-        <section className="bg-primary text-primary-foreground py-12">
+        <section className="bg-orange-500 text-white py-12">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">LifeDockサービスで健康管理を始めましょう</h2>
           <p className="text-xl mb-6 max-w-2xl mx-auto">
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
-          <Button size="lg" variant="secondary" className="font-semibold">
+          <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
             <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />

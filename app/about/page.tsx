@@ -12,7 +12,7 @@ export default function About() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">クリニック紹介</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            LifeDockクリニックは、最新の医療技術を活用し、 皆様の健康をサポートする医療機関です。
+            広尾オレンジクリニックは、最新の医療技術を活用し、 皆様の健康をサポートする医療機関です。
           </p>
         </div>
       </section>
@@ -32,12 +32,12 @@ export default function About() {
             <p className="text-lg mb-6">
               こどもの将来の健康ための予防医学を提供しています。ぜひLifeDockのホームページからサービス内容、予約方法をご確認ください。
             </p>
-            <Button size="lg" className="font-semibold">
+            {/* <Button size="lg" className="font-semibold">
               <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
                 LifeDockサービスについて詳しく
                 <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
-            </Button>
+            </Button> */}
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
@@ -148,13 +148,13 @@ export default function About() {
       </section> */}
 
       {/* LifeDock Banner */}
-      <section className="bg-primary text-primary-foreground py-12">
+      <section className="bg-orange-500 text-white py-12">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">LifeDockサービスで健康管理を始めましょう</h2>
           <p className="text-xl mb-6 max-w-2xl mx-auto">
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
-          <Button size="lg" variant="secondary" className="font-semibold">
+          <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
             <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />
