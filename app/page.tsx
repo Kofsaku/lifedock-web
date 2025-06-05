@@ -50,7 +50,7 @@ export default function Home() {
             <CardContent className="space-y-4">
               <div className="border-b pb-2">
                 <p className="text-sm text-muted-foreground">2025年4月1日</p>
-                <h3 className="font-medium">LifeDockサービス　2025.4.1からサービス開始！！</h3>
+                <h3 className="font-medium">LifeDockサービス　2025.6.30からサービス開始！！</h3>
                 {/* <p>4月末まで健康診断が10%オフでご利用いただけます。</p> */}
               </div>
               {/* <div className="border-b pb-2">
