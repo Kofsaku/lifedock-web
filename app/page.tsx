@@ -22,9 +22,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
             <div className="text-center text-white p-6 max-w-3xl">
               <h1 className="text-4xl font-bold mb-4">
-                広尾オレンジ
+                広尾オレンジクリニック
               </h1>
-              <p className="text-xl mb-6">お子様の将来の健康をサポートします。</p>
+              <p className="text-xl mb-6">お子さまの未来の健康をサポートします。</p>
               <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                 <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
                   LifeDockサービスを見る
