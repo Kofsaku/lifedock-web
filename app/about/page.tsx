@@ -41,7 +41,7 @@ export default function About() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/IMG_2084.JPG?height=400&width=600"
+              src="/0519_002.jpg?height=400&width=600"
               alt="LifeDockサービスイメージ"
               fill
               className="object-cover"

@@ -13,7 +13,7 @@ export default function Home() {
       <section className="w-full relative">
         <div className="relative w-full h-[500px] overflow-hidden">
           <Image
-            src="/top2.png?height=800&width=1200"
+            src="/0519_003.jpg?height=800&width=1200"
             alt="クリニックの外観"
             fill
             className="object-cover"
@@ -148,7 +148,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/IMG_2084.JPG?height=300&width=400"
+                src="/0519_002.jpg?height=300&width=400"
                 alt="クリニック受付"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/IMG_2097.JPG?height=300&width=400"
+                src="/0519_008.JPG?height=300&width=400"
                 alt="通路"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/desk.png?height=300&width=400"
+                src="/0519_007.JPG?height=300&width=400"
                 alt="診療室"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -179,7 +179,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/3">
             <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/IMG_2599.JPG?height=300&width=300" alt="院長写真" fill className="object-cover" />
+              <Image src="/B19D2570-BEA8-42FC-AE5E-4668184D216F.jpg?height=300&width=300" alt="院長写真" fill className="object-cover" />
             </div>
           </div>
           <div className="md:w-2/3">
