@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-sm text-muted-foreground">
-              最新の医療技術で皆様の健康をサポートします。 LifeDockサービスの提携医療機関として、
+              お子さまの未来の健康をサポートします。 LifeDockサービスの提携医療機関として、
               質の高い医療サービスを提供しています。
             </p>
           </div>
