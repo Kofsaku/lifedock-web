@@ -179,7 +179,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/3">
             <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/kawadesan.jpg?height=300&width=300" alt="院長写真" fill className="object-cover" />
+              <Image src="/IMG_2599.JPG?height=300&width=300" alt="院長写真" fill className="object-cover" />
             </div>
           </div>
           <div className="md:w-2/3">
