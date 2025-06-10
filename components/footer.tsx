@@ -57,7 +57,7 @@ export default function Footer() {
               </div> */}
               <div className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
-                <p className="text-sm">k.o.oushuku@gmail.com</p>
+                <p className="text-sm">k.o@oushuku.co.jp</p>
               </div>
             </div>
           </div>

@@ -46,7 +46,7 @@ export default function Recruitment() {
               <p className="text-lg mt-2">
                 広尾オレンジクリニック　採用担当<br />
                 <a href="mailto:k.o@oushuku.co.jp" className="text-orange-500 hover:text-orange-600 hover:underline">
-                  k.o.oushuku@gmail.com
+                  k.o@oushuku.co.jp
                 </a>
               </p>
             </div>
