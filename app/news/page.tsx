@@ -140,7 +140,7 @@ export default function News() {
             当クリニックはLifeDockサービスの提携医療機関です。 最新の技術で正確な検査結果をお届けします。
           </p>
           <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
-            <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
+            <Link href="https://life-dock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />
             </Link>

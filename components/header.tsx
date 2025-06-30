@@ -42,7 +42,7 @@ export default function Header() {
               size="sm" 
               className="ml-4 bg-orange-500 hover:bg-orange-600 text-white"
             >
-              <Link href="https://lifedock.jp" target="_blank">
+              <Link href="https://life-dock.jp" target="_blank">
                 LifeDockサービス
               </Link>
             </Button>
@@ -88,7 +88,7 @@ export default function Header() {
               スタッフ募集
             </Link>
             <Button className="w-full" size="sm">
-              <Link href="https://lifedock.jp" target="_blank" className="w-full" onClick={() => setIsMenuOpen(false)}>
+              <Link href="https://life-dock.jp" target="_blank" className="w-full" onClick={() => setIsMenuOpen(false)}>
                 LifeDockサービス
               </Link>
             </Button>

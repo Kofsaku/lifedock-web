@@ -26,7 +26,7 @@ export default function Home() {
               </h1>
               <p className="text-xl mb-6">お子さまの未来の健康をサポートします。</p>
               <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
-                <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
+                <Link href="https://life-dock.jp" target="_blank" className="flex items-center">
                   LifeDockサービスを見る
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -213,7 +213,7 @@ export default function Home() {
             当クリニックはLifeDockの提携医療機関です。 
           </p>
           <Button size="lg" variant="secondary" className="bg-white text-orange-500 hover:bg-orange-50 font-semibold">
-            <Link href="https://lifedock.jp" target="_blank" className="flex items-center">
+            <Link href="https://life-dock.jp" target="_blank" className="flex items-center">
               LifeDockサービスについて詳しく
               <ChevronRight className="ml-2 h-4 w-4" />
             </Link>

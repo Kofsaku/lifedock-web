@@ -86,7 +86,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://lifedock.jp" target="_blank" className="text-sm hover:text-primary">
+                <Link href="https://life-dock.jp" target="_blank" className="text-sm hover:text-primary">
                   LifeDockサービス
                 </Link>
               </li>
